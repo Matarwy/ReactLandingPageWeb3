@@ -35,7 +35,7 @@ if (typeof Storage !== 'undefined') { // eslint-disable-line
 function MyApp(props) {
   const [loading, setLoading] = useState(0);
   const [theme, setTheme] = useState({
-    ...appTheme('money', themeType),
+    ...appTheme('deepBlue', themeType),
     direction: i18n.language === 'ara' ? 'rtl' : 'ltr'
   });
 
@@ -66,7 +66,7 @@ function MyApp(props) {
     const newPaletteType = theme.palette.type === 'light' ? 'dark' : 'light';
     localStorage.setItem('luxiTheme', theme.palette.type === 'light' ? 'dark' : 'light');
     setTheme({
-      ...appTheme('money', newPaletteType),
+      ...appTheme('deepBlue', newPaletteType),
       direction: theme.direction,
     });
   };

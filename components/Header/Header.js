@@ -146,11 +146,8 @@ function Header(props) {
             </Hidden>
             <nav className={clsx(classes.navMenu, classes.navAuth)}>
               <Hidden xsDown>
-                <Button href={routeLink.crypto.login}>
-                  {t('common:crypto-landing.header_login')}
-                </Button>
                 <Button href={routeLink.crypto.register} variant="contained" color="secondary" className={classes.button}>
-                  {t('common:crypto-landing.header_register')}
+                  {t('common:crypto-landing.header_launch')}
                 </Button>
               </Hidden>
               <Settings toggleDark={onToggleDark} toggleDir={onToggleDir} invert={invert} />
