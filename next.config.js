@@ -17,7 +17,7 @@ module.exports = withImages({
       : 'none',
   },
   webpack: (config, options) => {
-    cssModules: true,
+   // cssModules: true,
     //      config.module.rules.push({
     //          enforce: 'pre',
     //          test: /\.js?$/,
@@ -27,9 +27,9 @@ module.exports = withImages({
     //            quiet: true,
     //          }
     //      });
-    config.node = {
-      fs: 'empty'
-    }
+    //config.node = {
+      //fs: 'empty'
+   // }
     return config;
   },
 });
