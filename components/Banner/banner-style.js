@@ -4,19 +4,23 @@ import { lighten, darken, fade } from '@material-ui/core/styles/colorManipulator
 const bannerStyles = makeStyles(theme => ({
   root: {
     position: 'relative',
-    [theme.breakpoints.up('md')]: {
-      height: 700,
-    },
-    [theme.breakpoints.down('sm')]: {
-      paddingBottom: theme.spacing(5)
-    }
+    height: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    // [theme.breakpoints.up('md')]: {
+    //   height: 700,
+    // },
+    // [theme.breakpoints.down('sm')]: {
+    //   paddingBottom: theme.spacing(5)
+    // }
   },
   canvasWrap: {
     position: 'absolute',
     width: '100%',
     height: '100%',
     overflow: 'hidden',
-    background: theme.palette.type === 'dark' ? `linear-gradient(-45deg, ${theme.palette.secondary.dark} 30%, ${theme.palette.primary.dark} 80%)` : `linear-gradient(-45deg, ${theme.palette.secondary.main} 30%, ${theme.palette.primary.main} 80%)`,
+    background: '#000', //theme.palette.type === 'dark' ? `linear-gradient(-45deg, ${theme.palette.secondary.dark} 30%, ${theme.palette.primary.dark} 80%)` : `linear-gradient(-45deg, ${theme.palette.secondary.main} 30%, ${theme.palette.primary.main} 80%)`,
     '&:after': {
       content: '""',
       position: 'absolute',
@@ -31,7 +35,7 @@ const bannerStyles = makeStyles(theme => ({
     position: 'absolute',
     width: '100%',
     height: '100%',
-    backgroundColor: theme.palette.type === 'dark' ? fade(theme.palette.primary.dark, 0.7) : fade(theme.palette.primary.main, 0.7),
+    backgroundColor: '#000' //theme.palette.type === 'dark' ? fade(theme.palette.primary.dark, 0.7) : fade(theme.palette.primary.main, 0.7),
   },
   particleBackground: {
     position: 'absolute',

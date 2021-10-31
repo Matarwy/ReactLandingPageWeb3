@@ -16,41 +16,41 @@ import useStyle from './testi-style';
 
 const testiContent = [
   {
-    text: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam nec ex aliquet, aliquam neque non.',
-    name: 'John Doe',
+    text: 'Great team Good charity work',
+    name: '	Mallori McLees',
     avatar: imgApi.avatar[6],
     title: 'Chief Digital Officer',
   },
   {
-    text: 'Vestibulum sit amet tortor sit amet libero lobortis semper at et odio. In eu tellus tellus. Pellentesque ullamcorper aliquet ultrices. Aenean facilisis vitae purus facilisis semper. Nam vitae scelerisque lorem, quis tempus libero.',
-    name: 'Jean Doe',
+    text: 'im very happy with stellar its ah good coin and it have ah good future vision =)',
+    name: 'Arius',
     avatar: imgApi.avatar[7],
     title: 'Chief Digital Officer',
   },
-  {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    name: 'Jena Doe',
-    avatar: imgApi.avatar[1],
-    title: 'Graphic Designer',
-  },
-  {
-    text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
-    name: 'Jovelin Doe',
-    avatar: imgApi.avatar[2],
-    title: 'Senior Graphic Designer',
-  },
-  {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    name: 'Jihan Doe',
-    avatar: imgApi.avatar[3],
-    title: 'CEO Software House',
-  },
-  {
-    text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-    name: 'John Doe',
-    avatar: imgApi.avatar[9],
-    title: 'Senior Graphic Designer',
-  },
+  // {
+  //   text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+  //   name: 'Jena Doe',
+  //   avatar: imgApi.avatar[1],
+  //   title: 'Graphic Designer',
+  // },
+  // {
+  //   text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
+  //   name: 'Jovelin Doe',
+  //   avatar: imgApi.avatar[2],
+  //   title: 'Senior Graphic Designer',
+  // },
+  // {
+  //   text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+  //   name: 'Jihan Doe',
+  //   avatar: imgApi.avatar[3],
+  //   title: 'CEO Software House',
+  // },
+  // {
+  //   text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
+  //   name: 'John Doe',
+  //   avatar: imgApi.avatar[9],
+  //   title: 'Senior Graphic Designer',
+  // },
 ];
 
 

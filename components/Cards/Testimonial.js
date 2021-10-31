@@ -22,8 +22,8 @@ export default function Testimonial(props) {
         <Typography className={classes.text} display="block">{text}</Typography>
         <Typography variant="caption" className={classes.caption}>
           {name}
-          &nbsp;-&nbsp;
-          {title}
+          {/* &nbsp;-&nbsp;
+          {title} */}
         </Typography>
       </Paper>
     </div>

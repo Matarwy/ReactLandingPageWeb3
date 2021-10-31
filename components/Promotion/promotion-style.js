@@ -127,7 +127,8 @@ const promotionStyles = makeStyles(theme => ({
         transition: 'none',
         verticalAlign: 'middle',
         width: 350,
-        height: 393,
+        objectFit: 'cover',
+        // height: 393,
         opacity: 1
       }
     },

@@ -14,7 +14,7 @@ import { withTranslation } from '~/i18n';
 
 const sliderData = [
   {
-    image: imgAPI.crypto[0],
+    image: "/en/images/crypto/trade.png",
     title: 'our target is to be used by millions',
     desc: "On Trading Planet Swap, you can make trades on the Binance Smart Chain. It's on of the largest decentralized network in the world of blockchain, it's impossible to run an exchange without using it.Binance Smart Chain came recently and helped solve the problems of Etherium Blockchain. With faster trades and lower fees, Binance is definitely one to watch out for.",
     date: '12 Jul - 10 Aug'
@@ -47,9 +47,9 @@ function Promotion(props) {
                     <section>
                       <div className={classes.imgWrap}>
                         <div className={classes.decoration}>
-                          <svg>
-                            <use xlinkHref="/images/crypto/deco-promo.svg#main" />
-                          </svg>
+                          {/* <svg> */}
+                            {/* <use xlinkHref="/en/images/crypto/deco-promo.png" /> */}
+                          {/* </svg> */}
                         </div>
                         <figure className={classes.image}>
                           <img src={item.image} alt={item.title} />
