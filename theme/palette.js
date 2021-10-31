@@ -111,23 +111,23 @@ module.exports = {
       }
     }
   },
-  roseGold: {
+  deepBlue: {
     palette: {
       primary: {
-        light: '#FCE4EC',
-        main: '#EC407A',
-        dark: '#D81B60',
+        light: '#0c88ed',
+        main: '#0c83e4',
+        dark: '#0961aa',
         contrastText: '#fff',
       },
       secondary: {
-        light: '#FFF8E1',
-        main: '#FFA000',
-        dark: '#FF6F00',
+        light: '#8202f2',
+        main: '#6202b6',
+        dark: '#490188',
         contrastText: '#fff',
       },
     },
   },
-  deepBlue: {
+  roseGold: {
     palette: {
       primary: {
         light: '#E8EAF6',

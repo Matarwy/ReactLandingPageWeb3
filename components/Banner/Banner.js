@@ -41,7 +41,7 @@ function Banner(props) {
     window.particlesJS('particles_backgrond', {
       particles: {
         number: {
-          value: 80,
+          value: 100,
           density: {
             enable: true,
             value_area: 800

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './Promotion';","map":{"version":3,"sources":["D:/projects/TP/v1/TradingPlanet-Home/components/Promotion/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,aAAxB","sourcesContent":["export { default } from './Promotion';\r\n"]},"metadata":{},"sourceType":"module"}
