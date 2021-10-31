@@ -18,25 +18,21 @@ import useStyles from './faq-style';
 
 const faqData = [
   {
-    q: 'Pellentesque ac bibendum tortor?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
+    q: 'Is the TP coin ERC-20 compatible?',
+    a: 'Yes, TP Coin is based on the Ethereum blockchain platform and ERC-20 compatible.'
   },
   {
-    q: 'In mi nulla, fringilla vestibulum?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
+    q: 'Am I buying on my own Risk?',
+    a: 'Yes, you are the only person responsible for your own decisions.'
   },
   {
-    q: 'Quisque lacinia purus ut libero?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
+    q: 'Where and how do I keep my TP Coin?',
+    a: 'You can keep your TP Coin in every wallet, which is ERC-20 compatible and supports the TP Coin.'
   },
   {
-    q: 'Quisque ut metus sit amet augue?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
-  },
-  {
-    q: 'Pellentesque ac bibendum tortor?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
-  },
+    q: 'Is there a refund rule?',
+    a: ' No. It is not refundable.'
+  }
 ];
 
 function Faq(props) {
