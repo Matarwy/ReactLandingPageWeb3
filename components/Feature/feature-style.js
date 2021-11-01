@@ -50,11 +50,11 @@ const featureStyles = makeStyles(theme => ({
     right: 4,
   },
   deco: {
-    position: 'absolute',
-    top: 80,
+    // position: 'absolute',
+    marginTop: 80,
     left: 80,
     width: 400,
-    '& svg': {
+    '& img': {
       transformOrigin: 'top left',
     }
   },

@@ -176,11 +176,11 @@ function Banner(props) {
                 </Button>
               </div>
             </Grid>
-            <Grid item xs={12} md={4}>
+            {/* <Grid item xs={12} md={4}>
               <figure className={classes.objectArt}>
                 <img src="/images/crypto/banner-art.png" alt="illustration" />
               </figure>
-            </Grid>
+            </Grid> */}
           </Grid>
         </div>
       </Container>

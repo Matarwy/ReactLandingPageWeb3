@@ -16,7 +16,7 @@ import Settings from './Settings';
 import MarketPrice from './MarketPrice';
 import MobileMenu from './MobileMenu';
 import routeLink from '~/public/text/link';
-import logo from '~/public/images/crypto-logo.svg';
+import Logo from '../Logo';
 import useStyles from './header-style';
 import navMenu from './menu';
 
@@ -105,11 +105,11 @@ function Header(props) {
               <div className={classes.logo}>
                 {invert ? (
                   <a href={routeLink.crypto.home}>
-                    <img src={logo} alt="logo" />
+                    <Logo />
                   </a>
                 ) : (
                   <AnchorLink href="#home">
-                    <img src={logo} alt="logo" />
+                    <Logo />
                   </AnchorLink>
                 )}
               </div>

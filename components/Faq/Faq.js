@@ -59,7 +59,7 @@ function Faq(props) {
             </Typography>
             <Hidden smDown>
               <div className={classes.illustration}>
-                <img src="/images/crypto/faq.png" alt="illustration" />
+                <img src="/images/498-[Converted].png" alt="illustration" />
               </div>
             </Hidden>
           </Grid>

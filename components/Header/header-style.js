@@ -79,10 +79,9 @@ const headerStyles = makeStyles(theme => ({
       transition: 'background 0.3s ease',
       boxShadow: theme.shadows[5],
       '& $logo': {
-        '& img': {
+        '& svg': {
           height: 48,
           width: 48,
-          marginBottom: 0,
         }
       },
       '& $headerContent': {

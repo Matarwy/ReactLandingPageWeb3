@@ -99,7 +99,7 @@ function MoreFeature(props) {
             <Grid item md={6} xs={12}>
               <ReactWOW animation="fadeInRightShort" offset={-100} delay="0.3s" duration="0.3s">
                 <figure className={classes.illustration}>
-                  <img src="/images/crypto/coin.png" alt="feature" />
+                  <img src="/images/burnt-cake.png" alt="feature" />
                 </figure>
               </ReactWOW>
             </Grid>

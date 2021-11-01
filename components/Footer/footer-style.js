@@ -87,7 +87,7 @@ const footerStyles = makeStyles(theme => ({
     [theme.breakpoints.down('sm')]: {
       justifyContent: 'center'
     },
-    '& img': {
+    '& svg': {
       width: 64,
       marginRight: theme.spacing(),
     },
