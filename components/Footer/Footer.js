@@ -31,8 +31,8 @@ function Copyright() {
 }
 
 const footer = {
-  description: ['Resource', 'Another resource', 'Final resource', 'Privacy policy', 'Terms of use', 'Terms Condition'],
-  link: ['#resource', '#another-resource', '#final-resource', '#privacy-policy', '#terms-of-use'],
+  description: ['Contact', 'Another resource', 'Blog', 'Privacy policy', 'WhitePaper', 'Terms Condition'],
+  link: ['https://t.me/TradingPlanetExchange', 'https://medium.com/@TradingPlanetEX', '#final-resource', "https://tradingplanet.finance/TradingPlanetWhitePaper.pdf", '#terms-of-use'],
 };
 
 const news = [

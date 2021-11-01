@@ -23,15 +23,15 @@ const footerStyles = makeStyles(theme => ({
       listStyle: 'none',
       marginBottom: theme.spacing(),
       display: 'inline-block',
-      width: '30%',
+      width: '100%',
       marginRight: '3%',
       whiteSpace: 'nowrap',
       overflow: 'hidden',
       textOverflow: 'ellipsis',
       color: theme.palette.common.white,
-      [theme.breakpoints.down('xs')]: {
-        width: '47%'
-      },
+      // [theme.breakpoints.down('xs')]: {
+      //   width: '47%'
+      // },
       '& a': {
         fontSize: 14,
         textTransform: 'capitalize',

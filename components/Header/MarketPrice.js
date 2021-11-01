@@ -69,6 +69,9 @@ const marketList = [
   },
 ];
 
+
+
+
 export default function MarketPrice() {
   const classes = useStyles();
   const settings = {

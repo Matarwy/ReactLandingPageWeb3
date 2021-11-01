@@ -20,7 +20,7 @@ const bannerStyles = makeStyles(theme => ({
     width: '100%',
     height: '100%',
     overflow: 'hidden',
-    background: '#000', //theme.palette.type === 'dark' ? `linear-gradient(-45deg, ${theme.palette.secondary.dark} 30%, ${theme.palette.primary.dark} 80%)` : `linear-gradient(-45deg, ${theme.palette.secondary.main} 30%, ${theme.palette.primary.main} 80%)`,
+    background: theme.palette.type === 'dark' ? `linear-gradient(-45deg, ${theme.palette.secondary.dark} 30%, ${theme.palette.primary.dark} 80%)` : `linear-gradient(-45deg, ${theme.palette.secondary.main} 30%, ${theme.palette.primary.main} 80%)`,
     '&:after': {
       content: '""',
       position: 'absolute',
@@ -35,7 +35,7 @@ const bannerStyles = makeStyles(theme => ({
     position: 'absolute',
     width: '100%',
     height: '100%',
-    backgroundColor: '#000' //theme.palette.type === 'dark' ? fade(theme.palette.primary.dark, 0.7) : fade(theme.palette.primary.main, 0.7),
+    backgroundColor: theme.palette.type === 'dark' ? fade(theme.palette.primary.dark, 0.7) : fade(theme.palette.primary.main, 0.7),
   },
   particleBackground: {
     position: 'absolute',

@@ -19,19 +19,19 @@ import useStyles from './faq-style';
 const faqData = [
   {
     q: 'Is the TP coin ERC-20 compatible?',
-    a: 'Yes, TP Coin is based on the Ethereum blockchain platform and ERC-20 compatible.'
+    a: 'Yes, TP Coin is based on the BSC blockchain platform and ERC-20 compatible.'
   },
   {
     q: 'Am I buying on my own Risk?',
-    a: 'Yes, you are the only person responsible for your own decisions.'
+    a: 'Because it is a decentralized platform Token  that has solutions for many issues related to security, privacy, speed of transections, in addition to very low fees. Do not forget  that our limit is the sky!'
   },
   {
     q: 'Where and how do I keep my TP Coin?',
-    a: 'You can keep your TP Coin in every wallet, which is ERC-20 compatible and supports the TP Coin.'
+    a: 'You can keep your TP Token in Trading Planet wallet and in every wallet Which is BSC compatible and supports the TP Token'
   },
   {
-    q: 'Is there a refund rule?',
-    a: ' No. It is not refundable.'
+    q: 'What is the marketing strategy of Trading Planet?',
+    a: 'In order to market Trading Planet Swap in a targeted manner, a digital marketing strategy is used above all. On social media mainly the channels Instagram, Facebook and YouTube are used from the beginning and the specific target group is addressed in the best possible way through appropriate posts and story contributions'
   }
 ];
 

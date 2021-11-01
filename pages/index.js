@@ -90,9 +90,6 @@ function Landing(props) {
           <section id="faq" className={classes.spaceTop}>
             <Faq />
           </section>
-          <Hidden mdDown>
-            <Notification />
-          </Hidden>
         </main>
         <FooterWithCounter toggleDir={onToggleDir} />
         <Hidden mdDown>

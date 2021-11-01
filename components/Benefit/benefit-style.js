@@ -10,6 +10,7 @@ const benefitStyles = makeStyles(theme => ({
   wrapper: {
     position: 'relative',
     paddingTop: theme.spacing(10),
+    height: 800,
     [theme.breakpoints.up('lg')]: {
       paddingLeft: theme.spacing(8),
       paddingRight: theme.spacing(8)
@@ -43,8 +44,8 @@ const benefitStyles = makeStyles(theme => ({
   },
   img: {
     margin: theme.spacing(3, 0, 0, 0),
-    overflow: 'hidden',
-    bottom: -40,
+    // overflow: 'hidden',
+    // bottom: -40,
     position: 'relative',
     maxWidth: '300px',
     '& img': {
@@ -66,7 +67,7 @@ const benefitStyles = makeStyles(theme => ({
   },
   parallaxProps: {
     background: `url(${decoBenefit}) no-repeat center center`,
-    height: 540,
+    height: 800,
   }
 }));
 
