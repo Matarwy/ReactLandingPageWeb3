@@ -15,10 +15,49 @@ import { withTranslation } from '~/i18n';
 const sliderData = [
   {
     image: "/images/crypto/trade.png",
-    title: 'our target is to be used by millions',
-    desc: "On Trading Planet Swap, you can make trades on the Binance Smart Chain. It's on of the largest decentralized network in the world of blockchain, it's impossible to run an exchange without using it.Binance Smart Chain came recently and helped solve the problems of Etherium Blockchain. With faster trades and lower fees, Binance is definitely one to watch out for.",
-    date: '12 Jul - 10 Aug'
-  }
+    desc: "prelaunch marketing, company and software development",
+    date: 'May 2021'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "Marketing and community development",
+    date: 'June 2021'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "launch trading planet swap platform",
+    date: 'OCT 2021'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "Launch presale on dexale",
+    date: 'NOV 2021'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "launch other features to swap platform",
+    date: 'Dec 2021'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "TP will be listed on CMC coingecko and centralia zed platform",
+    date: 'Q1 2022'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "launch trading planet centralized platform",
+    date: 'Q2 2022'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "Start The work on TP blockchain",
+    date: 'Q1 2023'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "Launch Trading Planet Prepaid card",
+    date: 'Q3 2021'
+  },
 ];
 
 function Promotion(props) {
@@ -58,11 +97,11 @@ function Promotion(props) {
                     </section>
                   </Hidden>
                   <Paper className={classes.paper}>
-                    <Typography variant="h1">
+                    {/* <Typography variant="h1">
                       <ButtonBase>
                         {item.title}
                       </ButtonBase>
-                    </Typography>
+                    </Typography> */}
                     <Typography component="p">
                       {item.desc}
                     </Typography>

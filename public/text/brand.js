@@ -7,6 +7,7 @@ module.exports = {
     projectName: 'TradingPlanet',
     // url: 'luxireact.ux-maestro.com/coinz',
     img: '/static/images/logo.png',
-    notifMsg: 'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.'
+    notifMsg: 'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.',
+    cover: "/static/images/easter-battle.png"
   }
 };

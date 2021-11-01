@@ -159,7 +159,7 @@ const footerStyles = makeStyles(theme => ({
   },
   footerCounter: {
     position: 'relative',
-    background: `linear-gradient(-130deg, ${theme.palette.type === 'dark' ? theme.palette.secondary.dark : theme.palette.secondary.main} -20%, ${theme.palette.type === 'dark' ? theme.palette.primary.dark : theme.palette.primary.main} 70%)`,
+    background: theme.palette.primary.dark,//`linear-gradient(-130deg, ${theme.palette.type === 'dark' ? theme.palette.secondary.dark : theme.palette.secondary.main} -20%, ${theme.palette.type === 'dark' ? theme.palette.primary.dark : theme.palette.primary.main} 70%)`,
     paddingTop: theme.spacing(10),
     [theme.breakpoints.up('md')]: {
       paddingTop: theme.spacing(25),

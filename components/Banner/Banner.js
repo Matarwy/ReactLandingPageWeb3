@@ -172,7 +172,7 @@ function Banner(props) {
                   {t('common:crypto-landing.banner_getstarted')}
                 </Button>
                 <Button variant="outlined" className={classes.invert} size="large" fullWidth={isMobile}>
-                  {t('common:crypto-landing.banner_viewmarket')}
+                  {t('common:crypto-landing.banner_learn')}
                 </Button>
               </div>
             </Grid>

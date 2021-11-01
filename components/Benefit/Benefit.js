@@ -23,7 +23,7 @@ function Benefit(props) {
     <div className={classes.root}>
       <div className={classes.parallaxWrap}>
         <Parallax
-          bgImage={imgAPI.crypto[5]}
+          bgImage="/images/easter-battle.png"
           bgImageAlt="benefit"
           strength={0}
         >
@@ -52,9 +52,9 @@ function Benefit(props) {
             </Grid>
             <Grid item md={7}>
               <div>
-                <figure className={classes.img}>
-                  <img src={imgAPI.crypto[6]} alt="benefit" />
-                </figure>
+                {/* <figure className={classes.img}>
+                  <img src="/images/easter-battle.png" alt="benefit" />
+                </figure> */}
               </div>
               <Hidden mdDown>
                 <div className={classes.deco}>

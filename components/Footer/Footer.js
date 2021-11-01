@@ -18,6 +18,10 @@ import imgApi from '~/public/images/imgAPI';
 import { i18n, withTranslation } from '~/i18n';
 import useStyles from './footer-style';
 
+import TwitterIcon from '@material-ui/icons/Twitter';
+import TelegramIcon from '@material-ui/icons/Telegram';
+import MediumIcon from '../icons/medium';
+
 function Copyright() {
   return (
     <Typography variant="body2" display="block" color="textSecondary">
@@ -90,7 +94,7 @@ function Footer(props) {
           </Grid>
           <Grid item xs={12} md={4}>
             <div className={classes.quickLinks}>
-              <Typography variant="h6" className={classes.title} color="textPrimary" gutterBottom>
+              <Typography className={classes.title} color="textSecondary" gutterBottom>
                 {t('common:crypto-landing.footer_link')}
               </Typography>
               <ul>
@@ -121,20 +125,20 @@ function Footer(props) {
             <div className={classes.socmed}>
               <Link href="https://twitter.com/tradingplanetx">
                 <IconButton aria-label="TW" className={classes.margin} size="small">
-                  <i className="ion-logo-twitter" />
+                  <TwitterIcon style={{color: '#fff'}}/>
                 </IconButton>
               </Link>
 
               <Link href="https://t.me/TradingPlanetExchange">
                 <IconButton aria-label="TM" className={classes.margin} size="small">
-                  <i className="ion-logo-telegram" />
+                  <TelegramIcon  style={{color: '#fff'}}/>
                 </IconButton>
               </Link>
 
 
               <Link href="https://medium.com/@TradingPlanetEX">
                 <IconButton aria-label="MD" className={classes.margin} size="small">
-                  <i className="ion-logo-medium" />
+                  <MediumIcon style={{color: '#fff'}}/>
                 </IconButton>
               </Link>
 

@@ -46,6 +46,7 @@ const benefitStyles = makeStyles(theme => ({
     overflow: 'hidden',
     bottom: -40,
     position: 'relative',
+    maxWidth: '300px',
     '& img': {
       maxWidth: '100%',
       display: 'block'
