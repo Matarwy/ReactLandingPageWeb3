@@ -79,11 +79,11 @@ function Header(props) {
   return (
     <Fragment>
       { isMobile && (<MobileMenu open={openDrawer} toggleDrawer={handleOpenDrawer} />) }
-      {/* {!invert && (
+      {!invert && (
         <Hidden mdDown>
           <MarketPrice />
         </Hidden>
-      )} */}
+      )}
       <AppBar
         component="header"
         position="relative"
@@ -112,10 +112,11 @@ function Header(props) {
                 {invert ? (
                   <a href={routeLink.crypto.home}>
                     <Logo />
+                    
                   </a>
                 ) : (
                   <AnchorLink href="#home">
-                    <Logo />
+                    <Logo width={50}/>
                   </AnchorLink>
                 )}
               </div>
