@@ -1,9 +1,7 @@
 const link = {
   crypto: {
     home: '/',
-    contact: '/contact',
-    login: '/login',
-    register: '/register'
+    contact: 'https://t.me/TradingPlanetExchange',
   }
 };
 
