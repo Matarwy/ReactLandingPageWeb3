@@ -86,6 +86,9 @@ function MainFeature(props) {
               videoId="h93OfqakVBI"
               onReady={_onReady}
               opts={opts}
+              style={{
+                maxWidth: '100%'
+              }}
             />
           )}
         </DialogContent>

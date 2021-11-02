@@ -24,7 +24,11 @@ const featureStyles = makeStyles(theme => ({
   },
   videoPopup: {
     width: 690,
-    maxWidth: 'none'
+    maxWidth: '100%',
+
+    '& iframe': {
+      width: '100%',
+    }
   },
   featureWrap: {
     position: 'relative'
