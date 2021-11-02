@@ -23,15 +23,15 @@ const footerStyles = makeStyles(theme => ({
       listStyle: 'none',
       marginBottom: theme.spacing(),
       display: 'inline-block',
-      width: '30%',
+      width: '100%',
       marginRight: '3%',
       whiteSpace: 'nowrap',
       overflow: 'hidden',
       textOverflow: 'ellipsis',
       color: theme.palette.common.white,
-      [theme.breakpoints.down('xs')]: {
-        width: '47%'
-      },
+      // [theme.breakpoints.down('xs')]: {
+      //   width: '47%'
+      // },
       '& a': {
         fontSize: 14,
         textTransform: 'capitalize',
@@ -87,7 +87,7 @@ const footerStyles = makeStyles(theme => ({
     [theme.breakpoints.down('sm')]: {
       justifyContent: 'center'
     },
-    '& img': {
+    '& svg': {
       width: 64,
       marginRight: theme.spacing(),
     },
@@ -159,7 +159,7 @@ const footerStyles = makeStyles(theme => ({
   },
   footerCounter: {
     position: 'relative',
-    background: `linear-gradient(-130deg, ${theme.palette.type === 'dark' ? theme.palette.secondary.dark : theme.palette.secondary.main} -20%, ${theme.palette.type === 'dark' ? theme.palette.primary.dark : theme.palette.primary.main} 70%)`,
+    background: theme.palette.primary.dark,//`linear-gradient(-130deg, ${theme.palette.type === 'dark' ? theme.palette.secondary.dark : theme.palette.secondary.main} -20%, ${theme.palette.type === 'dark' ? theme.palette.primary.dark : theme.palette.primary.main} 70%)`,
     paddingTop: theme.spacing(10),
     [theme.breakpoints.up('md')]: {
       paddingTop: theme.spacing(25),

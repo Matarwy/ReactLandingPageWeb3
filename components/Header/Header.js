@@ -16,9 +16,11 @@ import Settings from './Settings';
 import MarketPrice from './MarketPrice';
 import MobileMenu from './MobileMenu';
 import routeLink from '~/public/text/link';
-import logo from '~/public/images/crypto-logo.svg';
+import Logo from '../Logo';
 import useStyles from './header-style';
 import navMenu from './menu';
+import Link from '@material-ui/core/Link';
+
 
 let counter = 0;
 function createData(name, url, offset) {
@@ -73,11 +75,11 @@ function Header(props) {
   return (
     <Fragment>
       { isMobile && (<MobileMenu open={openDrawer} toggleDrawer={handleOpenDrawer} />) }
-      {!invert && (
+      {/* {!invert && (
         <Hidden mdDown>
           <MarketPrice />
         </Hidden>
-      )}
+      )} */}
       <AppBar
         component="header"
         position="relative"
@@ -105,11 +107,11 @@ function Header(props) {
               <div className={classes.logo}>
                 {invert ? (
                   <a href={routeLink.crypto.home}>
-                    <img src={logo} alt="logo" />
+                    <Logo />
                   </a>
                 ) : (
                   <AnchorLink href="#home">
-                    <img src={logo} alt="logo" />
+                    <Logo />
                   </AnchorLink>
                 )}
               </div>
@@ -146,9 +148,9 @@ function Header(props) {
             </Hidden>
             <nav className={clsx(classes.navMenu, classes.navAuth)}>
               <Hidden xsDown>
-                <Button href={routeLink.crypto.register} variant="contained" color="secondary" className={classes.button}>
-                  {t('common:crypto-landing.header_launch')}
-                </Button>
+                  <Button href="https://tradingplanet.finance/" target="_blank" variant="contained" color="secondary" className={classes.button}>
+                    {t('common:crypto-landing.header_launch')}
+                  </Button>
               </Hidden>
               <Settings toggleDark={onToggleDark} toggleDir={onToggleDir} invert={invert} />
             </nav>

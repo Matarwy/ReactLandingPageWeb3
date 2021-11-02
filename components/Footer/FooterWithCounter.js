@@ -14,7 +14,7 @@ function FooterWithDeco(props) {
           <use xlinkHref="/images/crypto/deco-footer.svg#main" />
         </svg>
       </div>
-      <Counter />
+      {/* <Counter /> */}
       <Footer toggleDir={toggleDir} />
     </div>
   );

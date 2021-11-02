@@ -83,7 +83,7 @@ function MoreFeature(props) {
             <Grid item md={6} xs={12}>
               <ReactWOW animation="fadeInLeftShort" delay="0.3s" duration="0.3s">
                 <figure className={classes.illustration}>
-                  <img src="/images/crypto/illustration1.png" alt="feature" />
+                  <img src="/images/crypto/deco-promo.png" alt="feature" />
                 </figure>
               </ReactWOW>
             </Grid>
@@ -99,7 +99,7 @@ function MoreFeature(props) {
             <Grid item md={6} xs={12}>
               <ReactWOW animation="fadeInRightShort" offset={-100} delay="0.3s" duration="0.3s">
                 <figure className={classes.illustration}>
-                  <img src="/images/crypto/illustration2.png" alt="feature" />
+                  <img src="/images/burnt-cake.png" alt="feature" />
                 </figure>
               </ReactWOW>
             </Grid>
@@ -126,7 +126,7 @@ function MoreFeature(props) {
               </div>
               <Container maxWidth="md">
                 <ReactWOW animation="fadeIn" offset={-100} duration="0s" callback={handlePlay}>
-                  <ul className={classes.progressWrap}>
+                  {/* <ul className={classes.progressWrap}>
                     {coinData.map((item, index) => (
                       <li key={index.toString()}>
                         <div className={classes.coin}>
@@ -159,7 +159,7 @@ function MoreFeature(props) {
                         </div>
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </ReactWOW>
               </Container>
             </Grid>

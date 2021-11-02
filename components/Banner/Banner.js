@@ -10,6 +10,8 @@ import Typography from '@material-ui/core/Typography';
 import { useText } from '~/theme/common';
 import { withTranslation } from '~/i18n';
 import useStyles from './banner-style';
+import Link from '@material-ui/core/Link';
+
 
 function Banner(props) {
   const classes = useStyles();
@@ -41,7 +43,7 @@ function Banner(props) {
     window.particlesJS('particles_backgrond', {
       particles: {
         number: {
-          value: 80,
+          value: 100,
           density: {
             enable: true,
             value_area: 800
@@ -168,19 +170,23 @@ function Banner(props) {
                 </Typography>
               </div>
               <div className={classes.btnArea}>
+              <Link href="https://tradingplanet.finance/" target="_blank">
                 <Button variant="contained" color="secondary" size="large" fullWidth={isMobile}>
                   {t('common:crypto-landing.banner_getstarted')}
                 </Button>
+                </Link>
+                <Link href="https://medium.com/@TradingPlanetEX" target="_blank">
                 <Button variant="outlined" className={classes.invert} size="large" fullWidth={isMobile}>
-                  {t('common:crypto-landing.banner_viewmarket')}
+                  {t('common:crypto-landing.banner_learn')}
                 </Button>
+                </Link>
               </div>
             </Grid>
-            <Grid item xs={12} md={4}>
+            {/* <Grid item xs={12} md={4}>
               <figure className={classes.objectArt}>
                 <img src="/images/crypto/banner-art.png" alt="illustration" />
               </figure>
-            </Grid>
+            </Grid> */}
           </Grid>
         </div>
       </Container>

@@ -14,29 +14,50 @@ import { withTranslation } from '~/i18n';
 
 const sliderData = [
   {
-    image: imgAPI.crypto[0],
-    title: 'Sed imperdiet enim ligula',
-    desc: 'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
+    image: "/images/crypto/trade.png",
+    desc: "prelaunch marketing, company and software development",
+    date: 'May 2021'
   },
   {
-    image: imgAPI.crypto[1],
-    title: 'Fusce placerat enim et odio',
-    desc: 'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
+    image: "/images/crypto/trade.png",
+    desc: "Marketing and community development",
+    date: 'June 2021'
   },
   {
-    image: imgAPI.crypto[2],
-    title: 'Pellentesque ac bibendum tortor',
-    desc: 'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
+    image: "/images/crypto/trade.png",
+    desc: "launch trading planet swap platform",
+    date: 'OCT 2021'
   },
   {
-    image: imgAPI.crypto[3],
-    title: 'Pellentesque ac bibendum tortor',
-    desc: 'Sed imperdiet enim ligula vitae viverra. Vivamus sit amet interdum elit.',
-    date: '12 Jul - 10 Aug'
-  }
+    image: "/images/crypto/trade.png",
+    desc: "Launch presale on dexale",
+    date: 'NOV 2021'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "launch other features to swap platform",
+    date: 'Dec 2021'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "TP will be listed on CMC coingecko and centralia zed platform",
+    date: 'Q1 2022'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "launch trading planet centralized platform",
+    date: 'Q2 2022'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "Start The work on TP blockchain",
+    date: 'Q1 2023'
+  },
+  {
+    image: "/images/crypto/trade.png",
+    desc: "Launch Trading Planet Prepaid card",
+    date: 'Q3 2021'
+  },
 ];
 
 function Promotion(props) {
@@ -65,9 +86,9 @@ function Promotion(props) {
                     <section>
                       <div className={classes.imgWrap}>
                         <div className={classes.decoration}>
-                          <svg>
-                            <use xlinkHref="/images/crypto/deco-promo.svg#main" />
-                          </svg>
+                          {/* <svg> */}
+                            {/* <use xlinkHref="/en/images/crypto/deco-promo.png" /> */}
+                          {/* </svg> */}
                         </div>
                         <figure className={classes.image}>
                           <img src={item.image} alt={item.title} />
@@ -76,11 +97,11 @@ function Promotion(props) {
                     </section>
                   </Hidden>
                   <Paper className={classes.paper}>
-                    <Typography variant="h1">
+                    {/* <Typography variant="h1">
                       <ButtonBase>
                         {item.title}
                       </ButtonBase>
-                    </Typography>
+                    </Typography> */}
                     <Typography component="p">
                       {item.desc}
                     </Typography>

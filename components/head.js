@@ -45,16 +45,17 @@ const HeadComponent = () => (
     <meta property="twitter:creator" content="luxi" />
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:image:src" content="/images/crypto-logo.png" />
-    <meta property="og:url" content={brand.crypto.url} />
+    <meta property="title" content={brand.crypto.projectName} />
     <meta property="og:title" content={brand.crypto.desc} />
+    <meta property="og:url" content={brand.crypto.url} />
     <meta
       property="og:description"
       content={brand.crypto.desc}
     />
     <meta name="twitter:site" content={brand.crypto.url} />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:image" content={brand.crypto.img} />
-    <meta property="og:image" content={brand.crypto.img} />
+    <meta name="twitter:image" content={brand.crypto.cover} />
+    <meta property="og:image" content={brand.crypto.cover} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
   </Head>

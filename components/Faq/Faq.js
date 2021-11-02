@@ -18,25 +18,21 @@ import useStyles from './faq-style';
 
 const faqData = [
   {
-    q: 'Pellentesque ac bibendum tortor?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
+    q: 'Is the TP coin ERC-20 compatible?',
+    a: 'Yes, TP Coin is based on the BSC blockchain platform and ERC-20 compatible.'
   },
   {
-    q: 'In mi nulla, fringilla vestibulum?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
+    q: 'Am I buying on my own Risk?',
+    a: 'Because it is a decentralized platform Token  that has solutions for many issues related to security, privacy, speed of transections, in addition to very low fees. Do not forget  that our limit is the sky!'
   },
   {
-    q: 'Quisque lacinia purus ut libero?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
+    q: 'Where and how do I keep my TP Coin?',
+    a: 'You can keep your TP Token in Trading Planet wallet and in every wallet Which is BSC compatible and supports the TP Token'
   },
   {
-    q: 'Quisque ut metus sit amet augue?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
-  },
-  {
-    q: 'Pellentesque ac bibendum tortor?',
-    a: 'Vivamus sit amet interdum elit. Proin lacinia erat ac velit tempus auctor. '
-  },
+    q: 'What is the marketing strategy of Trading Planet?',
+    a: 'In order to market Trading Planet Swap in a targeted manner, a digital marketing strategy is used above all. On social media mainly the channels Instagram, Facebook and YouTube are used from the beginning and the specific target group is addressed in the best possible way through appropriate posts and story contributions'
+  }
 ];
 
 function Faq(props) {
@@ -63,7 +59,7 @@ function Faq(props) {
             </Typography>
             <Hidden smDown>
               <div className={classes.illustration}>
-                <img src="/images/crypto/faq.png" alt="illustration" />
+                <img src="/images/498-[Converted].png" alt="illustration" />
               </div>
             </Hidden>
           </Grid>

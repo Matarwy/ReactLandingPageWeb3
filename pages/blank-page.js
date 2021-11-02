@@ -27,6 +27,7 @@ const useStyles = makeStyles(theme => ({
   },
   containerWrap: {
     marginTop: theme.spacing(10),
+    height: `calc(100vh + ${theme.spacing(10)})`,
     padding: theme.spacing(4),
     '& > section': {
       position: 'relative'

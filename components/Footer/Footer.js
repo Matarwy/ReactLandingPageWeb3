@@ -12,24 +12,27 @@ import OutlinedInput from '@material-ui/core/OutlinedInput';
 import MenuItem from '@material-ui/core/MenuItem';
 import Link from '@material-ui/core/Link';
 import IconButton from '@material-ui/core/IconButton';
-import logo from '~/public/images/crypto-logo.svg';
+import Logo from '../Logo';
 import brand from '~/public/text/brand';
 import imgApi from '~/public/images/imgAPI';
 import { i18n, withTranslation } from '~/i18n';
 import useStyles from './footer-style';
 
+import TwitterIcon from '@material-ui/icons/Twitter';
+import TelegramIcon from '@material-ui/icons/Telegram';
+import MediumIcon from '../icons/medium';
+
 function Copyright() {
   return (
     <Typography variant="body2" display="block" color="textSecondary">
-      &copy;&nbsp;
-      {brand.crypto.footerText}
+      Copyright © 2021 TradingPlanet | All rights reserved.
     </Typography>
   );
 }
 
 const footer = {
-  description: ['Resource', 'Another resource', 'Final resource', 'Privacy policy', 'Terms of use', 'Terms Condition'],
-  link: ['#resource', '#another-resource', '#final-resource', '#privacy-policy', '#terms-of-use'],
+  description: ['Contact', 'Another resource', 'Blog', 'Privacy policy', 'WhitePaper', 'Terms Condition'],
+  link: ['https://t.me/TradingPlanetExchange', 'https://medium.com/@TradingPlanetEX', '#final-resource', "https://tradingplanet.finance/TradingPlanetWhitePaper.pdf", '#terms-of-use'],
 };
 
 const news = [
@@ -80,7 +83,7 @@ function Footer(props) {
         <Grid container spacing={6}>
           <Grid item xs={12} md={5}>
             <div className={classes.logo}>
-              <img src={logo} alt="logo" />
+              <Logo />
               <Typography variant="h6" color="textPrimary">
                 {brand.crypto.projectName}
               </Typography>
@@ -88,8 +91,10 @@ function Footer(props) {
             <Typography color="textPrimary" className={classes.footerDesc} gutterBottom>
               {t('common:crypto-landing.banner_title')}
             </Typography>
+          </Grid>
+          <Grid item xs={12} md={4}>
             <div className={classes.quickLinks}>
-              <Typography variant="h6" className={classes.title} color="textPrimary" gutterBottom>
+              <Typography className={classes.title} color="textSecondary" gutterBottom>
                 {t('common:crypto-landing.footer_link')}
               </Typography>
               <ul>
@@ -102,9 +107,7 @@ function Footer(props) {
                 ))}
               </ul>
             </div>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            {news.map((item, index) => (
+            {/* {news.map((item, index) => (
               <ButtonBase className={classes.blogItem} href="#" key={index.toString()}>
                 <figure>
                   <img src={item.img} alt="thumb" />
@@ -116,47 +119,30 @@ function Footer(props) {
                   <Typography display="block" component="span">Sed imperdiet enim ligula vitae viverra. </Typography>
                 </div>
               </ButtonBase>
-            ))}
+            ))} */}
           </Grid>
           <Grid item xs={12} md={3}>
             <div className={classes.socmed}>
-              <IconButton aria-label="FB" className={classes.margin} size="small">
-                <i className="ion-logo-twitter" />
-              </IconButton>
-              <IconButton aria-label="TW" className={classes.margin} size="small">
-                <i className="ion-logo-facebook" />
-              </IconButton>
-              <IconButton aria-label="IG" className={classes.margin} size="small">
-                <i className="ion-logo-instagram" />
-              </IconButton>
-              <IconButton aria-label="LI" className={classes.margin} size="small">
-                <i className="ion-logo-linkedin" />
-              </IconButton>
+              <Link href="https://twitter.com/tradingplanetx">
+                <IconButton aria-label="TW" className={classes.margin} size="small">
+                  <TwitterIcon style={{color: '#fff'}}/>
+                </IconButton>
+              </Link>
+
+              <Link href="https://t.me/TradingPlanetExchange">
+                <IconButton aria-label="TM" className={classes.margin} size="small">
+                  <TelegramIcon  style={{color: '#fff'}}/>
+                </IconButton>
+              </Link>
+
+
+              <Link href="https://medium.com/@TradingPlanetEX">
+                <IconButton aria-label="MD" className={classes.margin} size="small">
+                  <MediumIcon style={{color: '#fff'}}/>
+                </IconButton>
+              </Link>
+
             </div>
-            <Select
-              value={values.lang}
-              onChange={handleChange}
-              MenuProps={{
-                container: ctn
-              }}
-              startAdornment={(
-                <InputAdornment className={classes.icon} position="start">
-                  <LangIcon />
-                </InputAdornment>
-              )}
-              className={classes.selectLang}
-              classes={{
-                selectMenu: classes.selectMenu
-              }}
-              input={<OutlinedInput labelWidth={200} name="lang" id="outlined-lang-simple" />}
-            >
-              <MenuItem value="eng">English</MenuItem>
-              <MenuItem value="deu">Deutsch</MenuItem>
-              <MenuItem value="ara">العربيّة</MenuItem>
-              <MenuItem value="ind">Bahasa Indonesia</MenuItem>
-              <MenuItem value="prt">Português</MenuItem>
-              <MenuItem value="zho">简体中文</MenuItem>
-            </Select>
             <Copyright />
           </Grid>
         </Grid>

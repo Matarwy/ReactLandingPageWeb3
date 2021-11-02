@@ -4,12 +4,16 @@ import { lighten, darken, fade } from '@material-ui/core/styles/colorManipulator
 const bannerStyles = makeStyles(theme => ({
   root: {
     position: 'relative',
-    [theme.breakpoints.up('md')]: {
-      height: 700,
-    },
-    [theme.breakpoints.down('sm')]: {
-      paddingBottom: theme.spacing(5)
-    }
+    height: '100vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    // [theme.breakpoints.up('md')]: {
+    //   height: 700,
+    // },
+    // [theme.breakpoints.down('sm')]: {
+    //   paddingBottom: theme.spacing(5)
+    // }
   },
   canvasWrap: {
     position: 'absolute',

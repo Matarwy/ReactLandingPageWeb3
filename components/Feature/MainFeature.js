@@ -83,7 +83,7 @@ function MainFeature(props) {
         <DialogContent>
           {yt.use && (
             <YouTube
-              videoId="QPMkYyM2Gzg"
+              videoId="h93OfqakVBI"
               onReady={_onReady}
               opts={opts}
             />
@@ -99,7 +99,7 @@ function MainFeature(props) {
             </Typography>
             <Paper className={classes.video}>
               <figure>
-                <img src={imgAPI.crypto[4]} alt="cover" />
+                <img src={"/images/video_cover.jpg"} alt="cover" />
               </figure>
               <IconButton className={classes.playBtn} onClick={handleClickOpen}>
                 <span className="ion-ios-play" />
@@ -108,59 +108,7 @@ function MainFeature(props) {
           </Grid>
           <Grid item md={6} xs={12} className={classes.featureWrap}>
             <div className={classes.deco}>
-              <svg width="404px" height="452px" viewBox="0 0 404 452" version="1.1">
-                <defs>
-                  <linearGradient x1="34.1218989%" y1="15.1303808%" x2="20.0910756%" y2="110.664023%" id="featureLinearGradient-1">
-                    <stop stopColor={theme.palette.primary.light} offset="0%" />
-                    <stop stopColor={theme.palette.primary.light} offset="100%" />
-                  </linearGradient>
-                </defs>
-                <g id="Feature-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
-                  <path d="M2,136.921005 L2,314.197531 C2,330.732338 10.8296846,346.011946 25.1636364,354.27935 L178.836364,442.917242 C193.170315,451.184645 210.829685,451.184645 225.163636,442.917242 L378.836364,354.27935 C393.170315,346.011946 402,330.732338 402,314.197531 L402,136.921005 C402,120.385457 393.170315,105.10659 378.836364,96.8384449 L225.163636,8.2005525 C210.829685,-0.066850833 193.170315,-0.066850833 178.836364,8.2005525 L25.1636364,96.8384449 C10.8296846,105.10659 2,120.385457 2,136.921005" id="FeatureFill-1" stroke="url(#featureLinearGradient-1)" strokeWidth="4" />
-                </g>
-              </svg>
-            </div>
-            <div className={classes.counter}>
-              <div className={classes.lower}>
-                <Paper className={classes.paper}>
-                  <span className="ion-ios-ionic-outline" />
-                  <Typography variant="h6">
-                    +600
-                  </Typography>
-                  <Typography display="block">
-                    {t('common:crypto-landing.mainfeature_supported')}
-                  </Typography>
-                </Paper>
-                <Paper className={classes.paper}>
-                  <span className="ion-ios-people-outline" />
-                  <Typography variant="h6">
-                    +200K
-                  </Typography>
-                  <Typography display="block">
-                    {t('common:crypto-landing.mainfeature_registered')}
-                  </Typography>
-                </Paper>
-              </div>
-              <div className={classes.higher}>
-                <Paper className={classes.paper}>
-                  <span className="ion-ios-archive-outline" />
-                  <Typography variant="h6">
-                    +20M
-                  </Typography>
-                  <Typography display="block">
-                    {t('common:crypto-landing.mainfeature_open')}
-                  </Typography>
-                </Paper>
-                <Paper className={classes.paper}>
-                  <span className="ion-ios-heart-outline" />
-                  <Typography variant="h6">
-                    +50M
-                  </Typography>
-                  <Typography display="block">
-                    {t('common:crypto-landing.mainfeature_invested')}
-                  </Typography>
-                </Paper>
-              </div>
+              <img src={"/images/help.svg"} alt="deco" />
             </div>
           </Grid>
         </Grid>
