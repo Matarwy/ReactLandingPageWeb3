@@ -19,10 +19,10 @@ import useStyles from './faq-style';
 const faqData = [
   {
     q: 'Is the TP coin BEP-20 compatible?',
-    a: 'Yes, TP Coin is based on the BSC blockchain platform and BEP-20 compatible.'
+    a: 'Yes, TP Coin is based on the BSC and BEP-20 compatible.'
   },
   {
-    q: 'Am I buying on my own Risk?',
+    q: 'Why should I buy TP token?',
     a: 'Because it is a decentralized platform Token  that has solutions for many issues related to security, privacy, speed of transections, in addition to very low fees. Do not forget  that our limit is the sky!'
   },
   {
