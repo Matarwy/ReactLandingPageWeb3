@@ -18,8 +18,8 @@ import useStyles from './faq-style';
 
 const faqData = [
   {
-    q: 'Is the TP coin ERC-20 compatible?',
-    a: 'Yes, TP Coin is based on the BSC blockchain platform and ERC-20 compatible.'
+    q: 'Is the TP coin BEP-20 compatible?',
+    a: 'Yes, TP Coin is based on the BSC blockchain platform and BEP-20 compatible.'
   },
   {
     q: 'Am I buying on my own Risk?',
