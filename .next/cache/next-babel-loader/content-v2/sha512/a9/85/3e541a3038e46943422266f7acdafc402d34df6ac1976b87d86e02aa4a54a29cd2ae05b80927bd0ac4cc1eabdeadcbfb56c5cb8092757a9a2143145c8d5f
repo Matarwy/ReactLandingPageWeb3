@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { default } from './Testimonials';","map":{"version":3,"sources":["D:/projects/TP/v1/TradingPlanet-Home/components/Testimonials/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,gBAAxB","sourcesContent":["export { default } from './Testimonials';\r\n"]},"metadata":{},"sourceType":"module"}
