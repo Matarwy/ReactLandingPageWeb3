@@ -13,7 +13,10 @@ import navMenu from './menu';
 
 function MobileMenu(props) {
   const classes = useStyles();
-  const { toggleDrawer, open, t } = props;
+  const { toggleDrawer, open } = props;
+  const {t} = useTranslation();
+
+
   const SideList = () => (
     <div
       className={classes.mobileNav}
@@ -42,18 +45,7 @@ function MobileMenu(props) {
           >
             <ListItemText primary={t('common:crypto-landing.header_contact')} className={classes.menuList} />
           </ListItem>
-          <Divider className={classes.dividerSidebar} />
-          {['login', 'register'].map((item, index) => (
-            <ListItem
-              button
-              component="a"
-              href={routeLink.crypto[item]}
-              key={index.toString()}
-              style={{ animationDuration: navMenu.length * 0.15 + 's' }}
-            >
-              <ListItemText primary={t('common:crypto-landing.header_' + item)} className={classes.menuList} />
-            </ListItem>
-          ))}
+
         </List>
       </div>
     </div>
