@@ -152,11 +152,9 @@ function Header(props) {
               <Divider className={classes.divider} />
             </Hidden>
             <nav className={clsx(classes.navMenu, classes.navAuth)}>
-              <Hidden xsDown>
-                  <Button href="https://tradingplanet.finance/" target="_blank" variant="contained" color="secondary" className={classes.button}>
+                  <Button href="https://tradingplanet.finance/swap?outputCurrency=0x363387914c38de4e01acb79221635fe87288ddb9" target="_blank" variant="contained" color="secondary" className={classes.button}>
                     {t('common:crypto-landing.header_launch')}
                   </Button>
-              </Hidden>
               <Settings toggleDark={onToggleDark} toggleDir={onToggleDir} invert={invert} />
             </nav>
           </div>
