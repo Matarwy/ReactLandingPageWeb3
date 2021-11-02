@@ -56,6 +56,7 @@ const featureStyles = makeStyles(theme => ({
     width: 400,
     '& img': {
       transformOrigin: 'top left',
+      maxWidth: "100%"
     }
   },
   counter: {

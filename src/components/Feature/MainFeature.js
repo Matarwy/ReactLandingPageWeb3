@@ -108,7 +108,7 @@ function MainFeature(props) {
           </Grid>
           <Grid item md={6} xs={12} className={classes.featureWrap}>
             <div className={classes.deco}>
-              <img src={"/images/help.svg"} alt="deco" />
+              <img src={"/images/crypto/help.png"} alt="deco" />
             </div>
           </Grid>
         </Grid>
