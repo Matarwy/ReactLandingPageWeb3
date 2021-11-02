@@ -70,7 +70,7 @@ function Footer(props) {
         <Grid container spacing={6}>
           <Grid item xs={12} md={5}>
             <div className={classes.logo}>
-              <Logo />
+              <img src="/images/LogoWithText.png" alt=" LogoWithText"/>
             </div>
             <Typography color="textPrimary" className={classes.footerDesc} gutterBottom>
               {t('common:crypto-landing.banner_title')}

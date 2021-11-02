@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Avatar from '@material-ui/core/Avatar';
 import Carousel from 'react-slick';
 import useStyles from './header-style';
@@ -74,6 +74,9 @@ const marketList = [
 
 export default function MarketPrice() {
   const classes = useStyles();
+
+  const [marketList, setMarketList] = useState([]);
+
   const settings = {
     dots: false,
     arrows: false,
@@ -86,6 +89,18 @@ export default function MarketPrice() {
     cssEase: 'linear',
     pauseOnHover: true
   };
+
+
+  useEffect(()=> {
+
+    fetch("https://tokens.tradingplanet.finance/tradingplanet-default.json")
+    .then(res => res.json())
+    .then(data => {
+      setMarketList(data.tokens)
+    })
+    .catch(()=> {})
+
+  }, [])
   const renderPercent = (arrow, percent) => {
     switch (arrow) {
       case 'down':
@@ -120,13 +135,8 @@ export default function MarketPrice() {
         {marketList.map((item, index) => (
           <div className={classes.item} key={index.toString()}>
             <div className={classes.coin}>
-              <Avatar className={classes.logo} src={item.logo} alt={item.name} />
-              {item.name}
-              &nbsp;$&nbsp;
-              {item.price}
-              &nbsp;(
-              {renderPercent(item.status, item.percent)}
-              )
+              <Avatar src={item.logoURI} alt={item.name} style={{width: 30, height: 30}}/>
+              <span style={{marginLeft: 8}}>{item.symbol}</span>
             </div>
           </div>
         ))}

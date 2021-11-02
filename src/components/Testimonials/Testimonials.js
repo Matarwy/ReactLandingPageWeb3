@@ -17,13 +17,13 @@ import useStyle from './testi-style';
 const testiContent = [
   {
     text: 'Great team Good charity work',
-    name: '	Mallori McLees',
+    name: 'M. Phillips',
     avatar: imgApi.avatar[6],
     title: 'Chief Digital Officer',
   },
   {
     text: 'im very happy with stellar its ah good coin and it have ah good future vision =)',
-    name: 'Arius',
+    name: 'Nick Hilton',
     avatar: imgApi.avatar[7],
     title: 'Chief Digital Officer',
   },

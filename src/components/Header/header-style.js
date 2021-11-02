@@ -312,7 +312,7 @@ const headerStyles = makeStyles(theme => ({
     zIndex: 1200,
     left: 0,
     width: '100%',
-    height: 40,
+    height: 50,
     background: 'rgba(0, 0, 0, 0.5)',
     padding: theme.spacing(),
   },
@@ -325,8 +325,9 @@ const headerStyles = makeStyles(theme => ({
   },
   coin: {
     display: 'flex',
+    alignItems: 'center',
     '& $logo': {
-      width: 20,
+      width: 10,
       height: 'auto',
       marginRight: theme.spacing(),
       '& img': {

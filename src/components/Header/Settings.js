@@ -120,8 +120,8 @@ function Settings(props) {
             </Typography>
           </ListItem>
         </List>
-        <Divider />
-        <List
+        {/* <Divider /> */}
+        {/* <List
           component="nav"
           className={classes.langMenu}
           aria-label="Language-menu"
@@ -150,7 +150,7 @@ function Settings(props) {
               )}
             </ListItem>
           ))}
-        </List>
+        </List> */}
       </Popover>
     </div>
   );

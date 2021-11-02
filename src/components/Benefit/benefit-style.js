@@ -8,15 +8,18 @@ const benefitStyles = makeStyles(theme => ({
   wrapper: {
     position: 'relative',
     paddingTop: theme.spacing(10),
-    height: 800,
+    height: 900,
     [theme.breakpoints.up('lg')]: {
       paddingLeft: theme.spacing(8),
       paddingRight: theme.spacing(8)
     },
     [theme.breakpoints.up('sm')]: {
       paddingLeft: theme.spacing(4),
-      paddingRight: theme.spacing(4)
-    }
+      paddingRight: theme.spacing(4),
+    },
+     [theme.breakpoints.down('sm')]: {
+      height: 200,
+  },
   },
   desc: {
     padding: 0,
@@ -62,10 +65,16 @@ const benefitStyles = makeStyles(theme => ({
     left: 0,
     width: '100%',
     height: '100%',
+    [theme.breakpoints.down('xs')]: {
+      height: 200,
+  },
   },
   parallaxProps: {
     background: `url(/images/crypto/deco-benefit.svg) no-repeat center center`,
-    height: 800,
+    height: 900,
+    [theme.breakpoints.down('sm')]: {
+      height: 200,
+  },
   }
 }));
 
