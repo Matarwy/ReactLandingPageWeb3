@@ -181,7 +181,7 @@ function Banner(props) {
                   {t('common:crypto-landing.banner_getstarted')}
                 </Button>
                 </Link>
-                <Link href="https://medium.com/@TradingPlanetEX" target="_blank">
+                <Link href="https://tradingplanet.finance/TradingPlanetWhitePaper.pdf" target="_blank">
                 <Button variant="outlined" className={classes.invert} size="large" fullWidth={isMobile}>
                   {t('common:crypto-landing.banner_learn')}
                 </Button>
