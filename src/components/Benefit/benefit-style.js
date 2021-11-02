@@ -8,7 +8,7 @@ const benefitStyles = makeStyles(theme => ({
   wrapper: {
     position: 'relative',
     paddingTop: theme.spacing(10),
-    height: 900,
+    // height: 900,
     [theme.breakpoints.up('lg')]: {
       paddingLeft: theme.spacing(8),
       paddingRight: theme.spacing(8)
@@ -55,12 +55,12 @@ const benefitStyles = makeStyles(theme => ({
     }
   },
   deco: {
-    position: 'absolute',
+    position: 'relative',
     top: 40,
     right: 80,
   },
   parallaxWrap: {
-    position: 'absolute',
+    position: 'relative',
     top: 0,
     left: 0,
     width: '100%',
@@ -71,10 +71,10 @@ const benefitStyles = makeStyles(theme => ({
   },
   parallaxProps: {
     background: `url(/images/crypto/deco-benefit.svg) no-repeat center center`,
-    height: 900,
-    [theme.breakpoints.down('sm')]: {
-      height: 200,
-  },
+  //   height: 900,
+  //   [theme.breakpoints.down('sm')]: {
+  //     height: 200,
+  // },
   }
 }));
 
