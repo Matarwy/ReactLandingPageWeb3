@@ -120,9 +120,9 @@ module.exports = {
         contrastText: '#fff',
       },
       secondary: {
-        light: '#8202f2',
-        main: '#6202b6',
-        dark: '#490188',
+        light: '#f4bd57',
+        main: '#f2ae33',
+        dark: '#f0a519',
         contrastText: '#fff',
       },
     },

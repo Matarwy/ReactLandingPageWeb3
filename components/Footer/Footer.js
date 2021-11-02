@@ -12,7 +12,7 @@ import OutlinedInput from '@material-ui/core/OutlinedInput';
 import MenuItem from '@material-ui/core/MenuItem';
 import Link from '@material-ui/core/Link';
 import IconButton from '@material-ui/core/IconButton';
-import Logo from '../Logo';
+import Logo from '../LogoWithText';
 import brand from '~/public/text/brand';
 import imgApi from '~/public/images/imgAPI';
 import { i18n, withTranslation } from '~/i18n';
@@ -31,8 +31,8 @@ function Copyright() {
 }
 
 const footer = {
-  description: ['Contact', 'Another resource', 'Blog', 'Privacy policy', 'WhitePaper', 'Terms Condition'],
-  link: ['https://t.me/TradingPlanetExchange', 'https://medium.com/@TradingPlanetEX', '#final-resource', "https://tradingplanet.finance/TradingPlanetWhitePaper.pdf", '#terms-of-use'],
+  description: ['Contact', 'Blog', 'Privacy policy', 'WhitePaper'],
+  link: ['https://t.me/TradingPlanetExchange', 'https://medium.com/@TradingPlanetEX', 'https://tradingplanet.finance/TradingPlanetWhitePaper.pdf', "https://tradingplanet.finance/TradingPlanetWhitePaper.pdf"],
 };
 
 const news = [
@@ -84,9 +84,6 @@ function Footer(props) {
           <Grid item xs={12} md={5}>
             <div className={classes.logo}>
               <Logo />
-              <Typography variant="h6" color="textPrimary">
-                {brand.crypto.projectName}
-              </Typography>
             </div>
             <Typography color="textPrimary" className={classes.footerDesc} gutterBottom>
               {t('common:crypto-landing.banner_title')}

@@ -88,7 +88,7 @@ const footerStyles = makeStyles(theme => ({
       justifyContent: 'center'
     },
     '& svg': {
-      width: 64,
+      width: 240,
       marginRight: theme.spacing(),
     },
     '& h6': {
