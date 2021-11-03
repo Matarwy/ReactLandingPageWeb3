@@ -20,6 +20,7 @@ import useStyles from './footer-style';
 
 import TwitterIcon from '@material-ui/icons/Twitter';
 import TelegramIcon from '@material-ui/icons/Telegram';
+import EmailIcon from '@material-ui/icons/Email';
 import MediumIcon from '../icons/medium';
 
 function Copyright() {
@@ -32,7 +33,7 @@ function Copyright() {
 
 const footer = {
   description: ['Contact', 'Blog',  'WhitePaper'],
-  link: ['https://t.me/TradingPlanetExchange', 'https://medium.com/@TradingPlanetEX',  "https://tradingplanet.finance/TradingPlanetWhitePaper.pdf"],
+  link: ['https://t.me/Tradingplanet_Group', 'https://medium.com/@TradingPlanetEX',  "https://tradingplanet.finance/TradingPlanetWhitePaper.pdf"],
 };
 
 
@@ -113,7 +114,7 @@ function Footer(props) {
                 </IconButton>
               </Link>
 
-              <Link href="https://t.me/TradingPlanetExchange">
+              <Link href="https://t.me/Tradingplanet_Group">
                 <IconButton aria-label="TM" className={classes.margin} size="small">
                   <TelegramIcon  style={{color: '#fff'}}/>
                 </IconButton>
@@ -123,6 +124,13 @@ function Footer(props) {
               <Link href="https://medium.com/@TradingPlanetEX">
                 <IconButton aria-label="MD" className={classes.margin} size="small">
                   <MediumIcon style={{color: '#fff'}}/>
+                </IconButton>
+              </Link>
+
+
+              <Link href="mailto:support@tradingplanet.io">
+                <IconButton aria-label="MD" className={classes.margin} size="small">
+                  <EmailIcon style={{color: '#fff'}}/>
                 </IconButton>
               </Link>
 
