@@ -3,11 +3,11 @@ import { Doughnut } from "react-chartjs-2";
 
 
 const options = {
-  // plugins: {
-  //   legend: {
-  //     display: false
-  //   },
-  // }
+  plugins: {
+    legend: {
+      display: false
+    },
+  }
 }
 
 
@@ -19,6 +19,8 @@ const data = {
         "rgb(255, 99, 132)",
         "rgb(54, 162, 235)",
         "rgb(255, 205, 86)",
+        "rgb(63, 81, 181)",
+        "rgb(0, 150, 136)"
       ],
       hoverOffset: 4,
     },

@@ -25,10 +25,3 @@ npm run build
 ```
 npm start
 ```
-
-
-Roadmap on mobile
-chart of token dist alternative card section || promtion
-
-
-benefit => roadmap
