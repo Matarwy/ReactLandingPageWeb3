@@ -2,8 +2,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const benefitStyles = makeStyles(theme => ({
   root: {
-    position: 'relative',
-    background: theme.palette.common.black,
+    position: 'relative'
   },
   wrapper: {
     position: 'relative',
@@ -66,9 +65,6 @@ const benefitStyles = makeStyles(theme => ({
     width: '100%',
     height: '100%',
     background: '#1d6da7',
-    [theme.breakpoints.down('xs')]: {
-      height: 200,
-  },
   },
   parallaxProps: {
     background: `url(/images/crypto/deco-benefit.svg) no-repeat center center`,

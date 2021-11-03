@@ -8,6 +8,7 @@ const promotionStyles = makeStyles(theme => ({
     backgroundSize: '100%',
     position: 'relative',
     backgroundPosition: 'center 101%',
+    padding: '80px 0 100px 0',
     [theme.breakpoints.down('sm')]: {
       padding: theme.spacing(10, 3),
     },

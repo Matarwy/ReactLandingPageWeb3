@@ -48,7 +48,6 @@ function Benefit(props) {
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">June 2021</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
               <p>
                 Marketing and community developement
               </p>
@@ -61,7 +60,6 @@ function Benefit(props) {
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Aug 2021</h3>
-              <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
               <p>
                 initial exchange offering
               </p>
@@ -74,7 +72,6 @@ function Benefit(props) {
               // icon={<WorkIcon />}
             >
               <h3 className="vertical-timeline-element-title">Oct 2021</h3>
-              <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
               <p>
                Launch trading planet swap platform
               </p>
@@ -87,7 +84,6 @@ function Benefit(props) {
               // icon={<SchoolIcon />}
             >
               <h3 className="vertical-timeline-element-title">Nov 2021</h3>
-              <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
               <p>
                 Launch presale on Dexale
               </p>
@@ -100,7 +96,6 @@ function Benefit(props) {
               // icon={<SchoolIcon />}
             >
               <h3 className="vertical-timeline-element-title">Dec 2021</h3>
-              <h4 className="vertical-timeline-element-subtitle">Certification</h4>
               <p>
                 Launch other features to swap platform
               </p>
@@ -112,7 +107,6 @@ function Benefit(props) {
               contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             >
               <h3 className="vertical-timeline-element-title">Q1 2022</h3>
-              <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
               <p>
                TP will be listed On CMC, coingecko and centrali-zed platform
               </p>
@@ -127,7 +121,6 @@ function Benefit(props) {
               // icon={<SchoolIcon />}
             >
               <h3 className="vertical-timeline-element-title">Q2 2022</h3>
-              <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
               <p>
                Centalized platform
               </p>
@@ -142,7 +135,6 @@ function Benefit(props) {
               // icon={<SchoolIcon />}
             >
               <h3 className="vertical-timeline-element-title">Q1 2023</h3>
-              <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
               <p>
                strat the work on TP Blockchain
               </p>
@@ -156,18 +148,11 @@ function Benefit(props) {
               // icon={<SchoolIcon />}
             >
               <h3 className="vertical-timeline-element-title">Q3 2023</h3>
-              <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
               <p>
                Launch Trading Planet Prepaid Card
               </p>
             </VerticalTimelineElement>
-
-
-         
           </VerticalTimeline>
-
-
-
 
       </div>
       <Container fixed={isDesktop}>

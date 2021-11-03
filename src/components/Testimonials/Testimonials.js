@@ -27,32 +27,7 @@ const testiContent = [
     avatar: imgApi.avatar[7],
     title: 'Chief Digital Officer',
   },
-  // {
-  //   text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-  //   name: 'Jena Doe',
-  //   avatar: imgApi.avatar[1],
-  //   title: 'Graphic Designer',
-  // },
-  // {
-  //   text: 'Sed imperdiet enim ligula, vitae viverra justo porta vel.',
-  //   name: 'Jovelin Doe',
-  //   avatar: imgApi.avatar[2],
-  //   title: 'Senior Graphic Designer',
-  // },
-  // {
-  //   text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-  //   name: 'Jihan Doe',
-  //   avatar: imgApi.avatar[3],
-  //   title: 'CEO Software House',
-  // },
-  // {
-  //   text: 'Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.',
-  //   name: 'John Doe',
-  //   avatar: imgApi.avatar[9],
-  //   title: 'Senior Graphic Designer',
-  // },
-];
-
+]
 
 function Testimonials(props) {
   const slider = useRef(null);
