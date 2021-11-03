@@ -111,11 +111,11 @@ function Header(props) {
               <div className={classes.logo}>
                 {invert ? (
                   <a href={routeLink.crypto.home}>
-                    <Logo />
+                     <img src="/images/3d.png" alt="3d" style={{maxWidth: 50, objectFit: 'cover'}}/>
                   </a>
                 ) : (
                   <AnchorLink href="#home">
-                    <Logo width={50}/>
+                    <img src="/images/3d.png" alt="3d" style={{maxWidth: 50, objectFit: 'cover'}}/>
                   </AnchorLink>
                 )}
               </div>
