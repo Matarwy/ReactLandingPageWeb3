@@ -13,7 +13,7 @@ const promotionStyles = makeStyles(theme => ({
       padding: theme.spacing(10, 3),
     },
     [theme.breakpoints.down('xs')]: {
-      padding: 0
+      padding: '80px 0 100px 0',
     },
   },
   sliderWrap: {

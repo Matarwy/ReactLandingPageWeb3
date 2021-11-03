@@ -47,10 +47,11 @@ function Promotion(props) {
           style={{
             justifyContent: "center",
             paddingTop: 40,
+            flexDirection: "row-reverse"
           }}
           alignItems="center"
         >
-          <Chart />
+          <Grid item xs={12} sm={12} md={5} lg={4} xl={4}>
           <div
           style={{
             marginLeft: 15
@@ -72,6 +73,13 @@ function Promotion(props) {
             <Circle color="rgb(0, 150, 136)" />
               Advisor</Typography>
           </div>
+          </Grid>
+
+          <Grid item xs={12} sm={12} md={5} lg={4} xl={4}>
+            <Chart />
+          </Grid>
+
+          
         </Grid>
       </Container>
     </div>

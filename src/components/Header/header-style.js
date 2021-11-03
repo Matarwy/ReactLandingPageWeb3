@@ -176,7 +176,7 @@ const headerStyles = makeStyles(theme => ({
   },
   active: {},
   button: {
-    width: theme.spacing(15),
+    width: 170,
     padding: theme.spacing(0.5)
   },
   navMenu: {
