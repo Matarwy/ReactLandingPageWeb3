@@ -65,6 +65,7 @@ const benefitStyles = makeStyles(theme => ({
     left: 0,
     width: '100%',
     height: '100%',
+    background: '#1d6da7',
     [theme.breakpoints.down('xs')]: {
       height: 200,
   },
