@@ -112,7 +112,6 @@ function Header(props) {
                 {invert ? (
                   <a href={routeLink.crypto.home}>
                     <Logo />
-                    
                   </a>
                 ) : (
                   <AnchorLink href="#home">
