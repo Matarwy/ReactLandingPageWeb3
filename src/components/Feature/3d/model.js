@@ -103,7 +103,7 @@ var computeBoundingBox = function(obj) {
 class Model extends React.Component{
   static defaultProps = {
     width:500
-    ,height:500
+    ,height:400
     ,antialias:true
     ,loader: ''
     ,baseUrl:''
