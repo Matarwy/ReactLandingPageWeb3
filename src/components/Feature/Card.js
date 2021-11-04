@@ -1,13 +1,25 @@
 import React from 'react'
+import { makeStyles } from '@material-ui/core/styles';
 
 import {AmbientLight, DirectionLight} from './3d/light';
 import GLTFModel from './3d/gltf_model';
 
 
-export default function Card() {
+const useStyles = makeStyles(theme => ({
+    root: {
+        '& canvas': {
+            [theme.breakpoints.down('sm')]: {
+                width: '350px !important',
+                height: '350px !important',
+            }
+        }
+    }
+}))
 
+export default function Card() {
+    const classes = useStyles();
     return (
-        <div>
+        <div className={classes.root} >
             <GLTFModel
                 src="/obj/Final 02.glb"
                 scale={{x:0.5,y:0.5,z:0.5}}

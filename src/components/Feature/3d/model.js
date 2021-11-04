@@ -142,7 +142,7 @@ class Model extends React.Component{
 
     var {lights} = this.state;
     return (
-      <div  ref={node=>this.$container=node} data-loader={this.props.loader} 
+      <div  ref={node=>this.$container=node} data-loader={this.props.loader}
         style={this.style()}
       >
         {
@@ -307,6 +307,11 @@ class Model extends React.Component{
     const {enableKeys,enableRotate,enableZoom,enabled} = this.props;
 
     this.orbit_controls = new OrbitControls(this.camera, this.renderer.domElement);
+
+
+    this.orbit_controls.minPolarAngle = Math.PI/2;
+    this.orbit_controls.maxPolarAngle = Math.PI/2;
+
 
     Object.assign(this.orbit_controls,{
       enableKeys
