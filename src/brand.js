@@ -5,7 +5,7 @@ module.exports = {
     prefix: 'tp',
     logoText: 'TradingPlanet',
     projectName: 'TradingPlanet',
-    // url: 'luxireact.ux-maestro.com/coinz',
+    // url: 'TradingPlanetreact.ux-maestro.com/coinz',
     img: '/images/logo.png',
     notifMsg: 'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.',
     cover: "/images/easter-battle.png"
