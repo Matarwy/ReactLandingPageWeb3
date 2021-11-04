@@ -15,19 +15,14 @@ const resources = {
 i18n.use(initReactI18next)
 .init({
   defaultLanguage: 'eng',
-  // otherLanguages: ['ara'],
   fallbackLng: 'eng',
   initImmediate: false,
   localePath: '/locales',
   debug: true,
-  react: {
-    useSuspense: false,
-  },
-  resources,
-  // localeSubpaths: {
-  //   // ara: 'ar',
-  //   eng: 'en',
+  // react: {
+  //   useSuspense: false
   // },
+  resources,
   interpolation: {
       escapeValue: false,
     },

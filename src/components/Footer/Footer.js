@@ -14,7 +14,6 @@ import Link from '@material-ui/core/Link';
 import IconButton from '@material-ui/core/IconButton';
 import Logo from '../LogoWithText';
 import brand from '../../brand';
-// import imgApi from '~/public/images/imgAPI';
 import { useTranslation } from 'react-i18next';
 import useStyles from './footer-style';
 

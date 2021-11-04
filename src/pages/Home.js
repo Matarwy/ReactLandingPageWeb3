@@ -18,7 +18,7 @@ import Notification from '../components/Notification';
 import brand from '../brand';
 import Header from '../components/Header';
 
-
+import Card from '../components/Feature/Card';
 
 const sectionMargin = margin => (margin * 20);
 const useStyles = makeStyles(theme => ({
@@ -54,7 +54,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
-function Landing(props) {
+function Home(props) {
   const classes = useStyles();
   const theme = useTheme();
   const isTablet = useMediaQuery(theme.breakpoints.only('md'));
@@ -103,14 +103,14 @@ function Landing(props) {
   );
 }
 
-Landing.getInitialProps = async () => ({
+Home.getInitialProps = async () => ({
   namespacesRequired: ['common', 'crypto-landing'],
 });
 
-Landing.propTypes = {
+Home.propTypes = {
   onToggleDark: PropTypes.func.isRequired,
   onToggleDir: PropTypes.func.isRequired,
 };
 
 
-export default Landing;
+export default Home;

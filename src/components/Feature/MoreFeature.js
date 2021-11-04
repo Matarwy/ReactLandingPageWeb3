@@ -14,6 +14,11 @@ import { useText } from '../../theme/common';
 import Title from '../Title';
 import useStyles from './feature-style';
 
+import Card from './Card';
+
+// const Card = React.lazy(() => import('./Card'));
+
+
 
 function MoreFeature(props) {
   const classes = useStyles();
@@ -51,9 +56,10 @@ function MoreFeature(props) {
             </Grid>
             <Grid item md={6} xs={12}>
               {/* <ReactWOW animation="fadeInLeftShort" delay="0.3s" duration="0.3s"> */}
-                <figure className={classes.illustration}>
+                {/* <figure className={classes.illustration}>
                   <img src="/images/crypto/deco-promo.png" alt="feature" />
-                </figure>
+                </figure> */}
+                <Card />
               {/* </ReactWOW> */}
             </Grid>
           </Grid>
