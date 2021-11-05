@@ -6,17 +6,16 @@ import {GLTFLoader} from 'three/examples/jsm/loaders/GLTFLoader'
 import Model from './model'
 
 class GltfModel extends Model{
-  static defaultProps = Object.assign({},Model.defaultProps,{
+  static defaultProps = Object.assign({}, Model.defaultProps,{
     loader: 'gltf'
   })
   constructor(props){
     super(props)
-    // console.log(props)
   }
   load3dModel(){
 
     var {src,texPath} = this.props;
-    
+
     if(!src) return false
 
     // model
@@ -36,14 +35,14 @@ class GltfModel extends Model{
         if (n instanceof THREE.Camera) {
           if (!result.cameras)
             result.cameras = [];
-          
+
           result.cameras.push(n);
         }
         // Look for lights
         if (n instanceof THREE.Light) {
           if (!result.lights)
             result.lights = [];
-          
+
           result.lights.push(n);
         }
 
@@ -57,19 +56,19 @@ class GltfModel extends Model{
 
       }else {
         // Find a good camera position based on the size of the scene
-        
+
         let boundingBox = this.computeBoundingBox(data.scene);
         let front = boundingBox.max;
         let cz = boundingBox.max.z - boundingBox.min.z;
         // debugger
         this.camera.position.set(-26.63908202964038,38.969725973392514, 804.5895455213043);
-        
+
       }
-      
+
       if (result.lights && result.lights.length) {
       }
       else{ }
-      
+
       this.initControl()
 
 

@@ -27,7 +27,8 @@ export default function Card() {
                 rotation={{x:0,y:0, z:0}}
                 enableZoom={false}
             >
-                <AmbientLight color={0xffffff} />
+                <AmbientLight color={0xfffff0} />
+                {/* <DirectionLight color={0xff00ff} position={{x:-100,y:200,z:-100}}/> */}
             </GLTFModel>
         </div>
     )
