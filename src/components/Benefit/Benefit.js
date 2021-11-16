@@ -85,7 +85,7 @@ function Benefit(props) {
             >
               <h3 className="vertical-timeline-element-title">Nov 2021</h3>
               <p>
-                Launch presale on Dexale
+                Launch presale on Pinksale
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
