@@ -14,7 +14,7 @@ const options = {
 const data = {
   datasets: [
     {
-      data: [41, 20, 20, 20, 4],
+      data: [76, 19, 2.5, 1.57, .93],
       backgroundColor: [
         "rgb(255, 99, 132)",
         "rgb(54, 162, 235)",
@@ -27,7 +27,7 @@ const data = {
   ],
 
   // These labels appear in the legend and in the tooltips when hovering different arcs
-  labels: ["Public sale", "Liquidity", "Rewards", "Team", "Advisor"],
+  labels: ["Burned", "Locked, Team & Advisor", "Presale", "Liquidity", "Private Sale"],
   options,
 };
 

@@ -59,19 +59,19 @@ function Promotion(props) {
           >
             <Typography>
               <Circle color="rgb(255, 99, 132)" />
-              Public sale</Typography>
+              Burned</Typography>
             <Typography>
             <Circle color="rgb(54, 162, 235)" />
-              Liquidity</Typography>
+            Locked, Team &amp; Advisor</Typography>
             <Typography>
             <Circle color="rgb(255, 205, 86)" />
-              Rewards</Typography>
+            Presale</Typography>
             <Typography>
             <Circle color="rgb(63, 81, 181)" />
-              Team</Typography>
+            Liquidity</Typography>
             <Typography>
             <Circle color="rgb(0, 150, 136)" />
-              Advisor</Typography>
+            Private Sale</Typography>
           </div>
           </Grid>
 
