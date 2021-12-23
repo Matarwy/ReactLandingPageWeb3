@@ -31,8 +31,8 @@ function Copyright() {
 }
 
 const footer = {
-  description: ['Contact', 'Blog',  'WhitePaper'],
-  link: ['https://t.me/Tradingplanet_Group', 'https://medium.com/@TradingPlanetEX',  "https://tradingplanet.finance/TradingPlanetWhitePaper.pdf"],
+  description: ['Contact', 'Blog',  'WhitePaper', 'Audit'],
+  link: ['https://t.me/Tradingplanet_Group', 'https://medium.com/@TradingPlanetEX',  "https://tradingplanet.finance/TradingPlanetWhitePaper.pdf", "https://tradingplanet.finance/TradingPlanetAudit.pdf"],
 };
 
 
