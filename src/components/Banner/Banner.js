@@ -176,7 +176,7 @@ function Banner(props) {
                 </Typography>
               </div>
               <div className={classes.btnArea}>
-              <Link href="https://www.pinksale.finance/#/launchpad/0x9afC5787e371d56d8502F962f68c4a272a214e9D?chain=BSC" target="_blank">
+              <Link href="https://exchange.pinkswap.finance/#/swap?outputCurrency=0x363387914c38de4E01aCb79221635Fe87288DDb9" target="_blank">
                 <Button variant="contained" color="secondary" size="large" fullWidth={isMobile}>
                   {t('common:crypto-landing.banner_buytp')}
                 </Button>

@@ -14,7 +14,7 @@ const options = {
 const data = {
   datasets: [
     {
-      data: [76, 19, 2.5, 1.57, .93],
+      data: [77, 19, 1.5, 1.57, .93],
       backgroundColor: [
         "rgb(255, 99, 132)",
         "rgb(54, 162, 235)",
