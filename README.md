@@ -1,4 +1,4 @@
-# `cryptocurrency-theme`
+# `React Landing Page Web3`
 
 > TODO: description
 
